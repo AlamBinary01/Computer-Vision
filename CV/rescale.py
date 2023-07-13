@@ -8,7 +8,7 @@ def rescaleFrame(frame, scale=0.75):
     #It takes three parameters: the original frame, the desired dimensions (width and height), and the interpolation method (cv.INTER_AREA in this case, which is suitable for downscaling).
 
 # (OVERALLSUMMARY)=>[Overall, the rescaleFrame function resizes the input frame based on the given scale factor, and returns the resized frame]
-capture = cv.VideoCapture('/home/httpstealer/Desktop/CV/Videos/dog.mp4')
+capture = cv.VideoCapture('/home/httpstealer/Documents/GitHub/Computer-Vision/CV/Videos/dog.mp4')
 while True:
     isTrue, frame = capture.read()
     if not isTrue:

@@ -33,7 +33,7 @@ import cv2 as cv
 
 #==================(resizing and rescalling)===========================
  
-image= cv.imread('CV/Photos/cat_large.jpg')
+image= cv.imread('/home/httpstealer/Documents/GitHub/Computer-Vision/CV/Photos/cat_large.jpg')
 cv.imshow('Cat',image)
 def rescaleFrame(frame, scale=0.75):
     width= int(frame.shape[1]*scale)
